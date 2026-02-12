@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <title>My Website - About</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
 
     <div class="container">
         <h1>Amoye Walters</h1>
+
+        <img src="{{ url_for('static', filename='images/amoye.png') }}"
+             alt="Amoye Image"
+             class="profile-image">
+
 
         <p>
             Hi! I'm a third-year Software Engineering student at The University of the West Indies.
